@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+ use_frameworks!
+target 'RxSwift-Demo' do
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'ReachabilitySwift'
+  pod 'MonkeyKing'
+  pod 'SwiftyJSON'
+  pod 'SwiftyUserDefaults'
+  pod 'SwifterSwift'
+  pod 'SnapKit', '~> 3.2.0'
+  pod 'PhoneNumberKit'
+  pod 'Hue'
+  pod 'JPush'
+  pod 'TextAttributes'
+  pod 'PageMenu'
+  pod 'Toast-Swift'
+  pod 'PermissionScope'
+  pod 'SwiftyTimer'
+  pod 'RxOptional', '~> 3.1'
+  pod 'RxSwiftUtilities', '~> 1.0.1'
+  pod 'RxDataSources'
+  pod 'NSObject+Rx'
+end
