@@ -56,6 +56,15 @@ class ViewController: UIViewController {
             
         }.addDisposableTo(bag)
         
+        addButton.rx.tap.subscribe { [weak self] (event : Event<()>) in
+            
+            self?.navigationController?.pushViewController(RxSwiftTwoWayBindController(), animated: true)
+            
+        }.addDisposableTo(bag)
+        
+        
+        
+        
         
         sendMethodS()
     

@@ -37,6 +37,9 @@
 		AEEBCC091F39881800C1A9A7 /* Edisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC081F39881800C1A9A7 /* Edisode.swift */; };
 		AEEBCC0B1F39944A00C1A9A7 /* StructWithoutdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC0A1F39944A00C1A9A7 /* StructWithoutdelegate.swift */; };
 		AEEBCC0E1F39A23F00C1A9A7 /* ClosureShouldBeUsedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC0D1F39A23F00C1A9A7 /* ClosureShouldBeUsedViewController.swift */; };
+		AEEBCC111F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC0F1F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift */; };
+		AEEBCC121F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEBCC101F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.xib */; };
+		AEEBCC141F39BB8600C1A9A7 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC131F39BB8600C1A9A7 /* Operators.swift */; };
 		AEF1ADD21F345F7900CCFC99 /* RxSwiftQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1ADD11F345F7900CCFC99 /* RxSwiftQuestion.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +76,9 @@
 		AEEBCC081F39881800C1A9A7 /* Edisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edisode.swift; sourceTree = "<group>"; };
 		AEEBCC0A1F39944A00C1A9A7 /* StructWithoutdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructWithoutdelegate.swift; sourceTree = "<group>"; };
 		AEEBCC0D1F39A23F00C1A9A7 /* ClosureShouldBeUsedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureShouldBeUsedViewController.swift; sourceTree = "<group>"; };
+		AEEBCC0F1F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftTwoWayBindController.swift; sourceTree = "<group>"; };
+		AEEBCC101F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RxSwiftTwoWayBindController.xib; sourceTree = "<group>"; };
+		AEEBCC131F39BB8600C1A9A7 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		AEF1ADD11F345F7900CCFC99 /* RxSwiftQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftQuestion.swift; sourceTree = "<group>"; };
 		B6F17750BE540BC599114C09 /* Pods-RxSwift-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-Demo/Pods-RxSwift-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D60321E49AD9BE40A9CE933E /* Pods-RxSwift-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-Demo/Pods-RxSwift-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +156,9 @@
 				AEEBCC0D1F39A23F00C1A9A7 /* ClosureShouldBeUsedViewController.swift */,
 				AEEBCC0A1F39944A00C1A9A7 /* StructWithoutdelegate.swift */,
 				AEE9CF0D1F358F7D00EC3808 /* RxSwiftLoginController.swift */,
+				AEEBCC0F1F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift */,
+				AEEBCC101F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.xib */,
+				AEEBCC131F39BB8600C1A9A7 /* Operators.swift */,
 				AEEBCC081F39881800C1A9A7 /* Edisode.swift */,
 				AE96E68A1F36BA2C0096B208 /* NumberCell.swift */,
 				AE9A39B11F1C4E150081DB0D /* Assets.xcassets */,
@@ -242,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEEBCC121F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.xib in Resources */,
 				AE96E68D1F36BA2C0096B208 /* NumberCell.xib in Resources */,
 				AE9A39B51F1C4E150081DB0D /* LaunchScreen.storyboard in Resources */,
 				AE9A39B21F1C4E150081DB0D /* Assets.xcassets in Resources */,
@@ -309,11 +319,13 @@
 				AE9A39AD1F1C4E150081DB0D /* ViewController.swift in Sources */,
 				AE9A39AB1F1C4E150081DB0D /* AppDelegate.swift in Sources */,
 				AE9958EE1F21DEC30011A2A9 /* Protocols.swift in Sources */,
+				AEEBCC111F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift in Sources */,
 				AE0D29621F298B27005B1A1C /* CiteModel.swift in Sources */,
 				AE96E68C1F36BA2C0096B208 /* NumberCell.swift in Sources */,
 				AE1200181F270CED0027FAE7 /* RxSwiftCombination.swift in Sources */,
 				AE12001A1F271DF50027FAE7 /* RxSwiftTransformingOperators.swift in Sources */,
 				AE12002B1F2752320027FAE7 /* UIImage+Collage.swift in Sources */,
+				AEEBCC141F39BB8600C1A9A7 /* Operators.swift in Sources */,
 				AE36B4B01F28324300B8835D /* PhotoCell.swift in Sources */,
 				AE36B4A81F282AAB00B8835D /* RxSwiftEventOperator.swift in Sources */,
 				AE36B4AE1F28324300B8835D /* PHPPhotoLibrary+Rx.swift in Sources */,
