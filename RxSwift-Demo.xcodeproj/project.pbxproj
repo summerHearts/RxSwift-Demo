@@ -19,6 +19,9 @@
 		AE36B4AF1F28324300B8835D /* Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B4AB1F28324300B8835D /* Flash.swift */; };
 		AE36B4B01F28324300B8835D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B4AC1F28324300B8835D /* PhotoCell.swift */; };
 		AE36B4B11F28324300B8835D /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36B4AD1F28324300B8835D /* PhotoCollectionViewController.swift */; };
+		AE62C2AB1F3AA62100A81468 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C2A91F3AA62100A81468 /* CartViewController.swift */; };
+		AE62C2AC1F3AA62100A81468 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE62C2AA1F3AA62100A81468 /* CartViewController.xib */; };
+		AE62C2AE1F3AABA700A81468 /* AutoDeselect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE62C2AD1F3AABA700A81468 /* AutoDeselect.swift */; };
 		AE96E6891F36B9E00096B208 /* SimpleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96E6881F36B9E00096B208 /* SimpleCollectionViewController.swift */; };
 		AE96E68C1F36BA2C0096B208 /* NumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96E68A1F36BA2C0096B208 /* NumberCell.swift */; };
 		AE96E68F1F36C2CB0096B208 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE96E68E1F36C2CB0096B208 /* SortViewController.swift */; };
@@ -27,6 +30,17 @@
 		AE9A39AB1F1C4E150081DB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9A39AA1F1C4E150081DB0D /* AppDelegate.swift */; };
 		AE9A39AD1F1C4E150081DB0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9A39AC1F1C4E150081DB0D /* ViewController.swift */; };
 		AE9A39B21F1C4E150081DB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9A39B11F1C4E150081DB0D /* Assets.xcassets */; };
+		AEBBD50A1F3AD9DE00CF1B54 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD5091F3AD9DE00CF1B54 /* ProductModel.swift */; };
+		AEBBD50D1F3ADEB100CF1B54 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD50B1F3ADEB100CF1B54 /* ProductCell.swift */; };
+		AEBBD50E1F3ADEB100CF1B54 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBBD50C1F3ADEB100CF1B54 /* ProductCell.xib */; };
+		AEBBD5101F3AE00A00CF1B54 /* TableViewCell+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD50F1F3AE00A00CF1B54 /* TableViewCell+Rx.swift */; };
+		AEBBD5151F3AE47B00CF1B54 /* DataPaymentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD5111F3AE47B00CF1B54 /* DataPaymentSection.swift */; };
+		AEBBD5161F3AE47B00CF1B54 /* ModelPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD5121F3AE47B00CF1B54 /* ModelPayment.swift */; };
+		AEBBD5181F3AE47B00CF1B54 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD5141F3AE47B00CF1B54 /* PaymentViewController.swift */; };
+		AEBBD51A1F3AE54800CF1B54 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD5191F3AE54800CF1B54 /* Helper.swift */; };
+		AEBBD51D1F3AE7A100CF1B54 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD51B1F3AE7A100CF1B54 /* PaymentCell.swift */; };
+		AEBBD51E1F3AE7A100CF1B54 /* PaymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBBD51C1F3AE7A100CF1B54 /* PaymentCell.xib */; };
+		AEBBD5201F3AEA9400CF1B54 /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBBD51F1F3AEA9400CF1B54 /* PaymentViewController.xib */; };
 		AEE9CF0B1F358C3000EC3808 /* RxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9CF091F358C3000EC3808 /* RxTableViewController.swift */; };
 		AEE9CF0E1F358F7D00EC3808 /* RxSwiftLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9CF0D1F358F7D00EC3808 /* RxSwiftLoginController.swift */; };
 		AEEBCC091F39881800C1A9A7 /* Edisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEBCC081F39881800C1A9A7 /* Edisode.swift */; };
@@ -56,6 +70,9 @@
 		AE36B4AB1F28324300B8835D /* Flash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flash.swift; sourceTree = "<group>"; };
 		AE36B4AC1F28324300B8835D /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		AE36B4AD1F28324300B8835D /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		AE62C2A91F3AA62100A81468 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		AE62C2AA1F3AA62100A81468 /* CartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		AE62C2AD1F3AABA700A81468 /* AutoDeselect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoDeselect.swift; sourceTree = "<group>"; };
 		AE96E6881F36B9E00096B208 /* SimpleCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCollectionViewController.swift; sourceTree = "<group>"; };
 		AE96E68A1F36BA2C0096B208 /* NumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberCell.swift; sourceTree = "<group>"; };
 		AE96E68E1F36C2CB0096B208 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +83,17 @@
 		AE9A39AC1F1C4E150081DB0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE9A39B11F1C4E150081DB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9A39B61F1C4E150081DB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBBD5091F3AD9DE00CF1B54 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		AEBBD50B1F3ADEB100CF1B54 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		AEBBD50C1F3ADEB100CF1B54 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		AEBBD50F1F3AE00A00CF1B54 /* TableViewCell+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewCell+Rx.swift"; sourceTree = "<group>"; };
+		AEBBD5111F3AE47B00CF1B54 /* DataPaymentSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPaymentSection.swift; sourceTree = "<group>"; };
+		AEBBD5121F3AE47B00CF1B54 /* ModelPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelPayment.swift; sourceTree = "<group>"; };
+		AEBBD5141F3AE47B00CF1B54 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		AEBBD5191F3AE54800CF1B54 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AEBBD51B1F3AE7A100CF1B54 /* PaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		AEBBD51C1F3AE7A100CF1B54 /* PaymentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentCell.xib; sourceTree = "<group>"; };
+		AEBBD51F1F3AEA9400CF1B54 /* PaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
 		AEE9CF091F358C3000EC3808 /* RxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewController.swift; sourceTree = "<group>"; };
 		AEE9CF0D1F358F7D00EC3808 /* RxSwiftLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxSwiftLoginController.swift; sourceTree = "<group>"; };
 		AEEBCC081F39881800C1A9A7 /* Edisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edisode.swift; sourceTree = "<group>"; };
@@ -157,9 +185,23 @@
 				AEEBCC0A1F39944A00C1A9A7 /* StructWithoutdelegate.swift */,
 				AEE9CF0D1F358F7D00EC3808 /* RxSwiftLoginController.swift */,
 				AEEBCC0F1F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift */,
+				AE62C2A91F3AA62100A81468 /* CartViewController.swift */,
+				AEBBD5091F3AD9DE00CF1B54 /* ProductModel.swift */,
+				AE62C2AD1F3AABA700A81468 /* AutoDeselect.swift */,
+				AEBBD50B1F3ADEB100CF1B54 /* ProductCell.swift */,
+				AEBBD50F1F3AE00A00CF1B54 /* TableViewCell+Rx.swift */,
+				AEBBD50C1F3ADEB100CF1B54 /* ProductCell.xib */,
+				AE62C2AA1F3AA62100A81468 /* CartViewController.xib */,
 				AEEBCC131F39BB8600C1A9A7 /* Operators.swift */,
 				AEEBCC081F39881800C1A9A7 /* Edisode.swift */,
 				AE96E68A1F36BA2C0096B208 /* NumberCell.swift */,
+				AEBBD5111F3AE47B00CF1B54 /* DataPaymentSection.swift */,
+				AEBBD5121F3AE47B00CF1B54 /* ModelPayment.swift */,
+				AEBBD51B1F3AE7A100CF1B54 /* PaymentCell.swift */,
+				AEBBD51C1F3AE7A100CF1B54 /* PaymentCell.xib */,
+				AEBBD5141F3AE47B00CF1B54 /* PaymentViewController.swift */,
+				AEBBD51F1F3AEA9400CF1B54 /* PaymentViewController.xib */,
+				AEBBD5191F3AE54800CF1B54 /* Helper.swift */,
 				AE9A39B11F1C4E150081DB0D /* Assets.xcassets */,
 				AE9A39B61F1C4E150081DB0D /* Info.plist */,
 			);
@@ -251,12 +293,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBBD50E1F3ADEB100CF1B54 /* ProductCell.xib in Resources */,
+				AE62C2AC1F3AA62100A81468 /* CartViewController.xib in Resources */,
 				AEEBCC1E1F39C09700C1A9A7 /* RxSwiftLoginController.xib in Resources */,
+				AEBBD5201F3AEA9400CF1B54 /* PaymentViewController.xib in Resources */,
 				AEEBCC1D1F39C09700C1A9A7 /* NumberCell.xib in Resources */,
 				AEEBCC1C1F39C09700C1A9A7 /* Main.storyboard in Resources */,
 				AEEBCC1F1F39C09700C1A9A7 /* RxSwiftTwoWayBindController.xib in Resources */,
 				AE9A39B21F1C4E150081DB0D /* Assets.xcassets in Resources */,
 				AEEBCC201F39C09700C1A9A7 /* RxTableViewController.xib in Resources */,
+				AEBBD51E1F3AE7A100CF1B54 /* PaymentCell.xib in Resources */,
 				AEEBCC1B1F39C09700C1A9A7 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +365,10 @@
 				AE9A39AD1F1C4E150081DB0D /* ViewController.swift in Sources */,
 				AE9A39AB1F1C4E150081DB0D /* AppDelegate.swift in Sources */,
 				AE9958EE1F21DEC30011A2A9 /* Protocols.swift in Sources */,
+				AE62C2AE1F3AABA700A81468 /* AutoDeselect.swift in Sources */,
 				AEEBCC111F39BA4200C1A9A7 /* RxSwiftTwoWayBindController.swift in Sources */,
 				AE0D29621F298B27005B1A1C /* CiteModel.swift in Sources */,
+				AEBBD50A1F3AD9DE00CF1B54 /* ProductModel.swift in Sources */,
 				AE96E68C1F36BA2C0096B208 /* NumberCell.swift in Sources */,
 				AE1200181F270CED0027FAE7 /* RxSwiftCombination.swift in Sources */,
 				AE12001A1F271DF50027FAE7 /* RxSwiftTransformingOperators.swift in Sources */,
@@ -328,19 +376,27 @@
 				AEEBCC141F39BB8600C1A9A7 /* Operators.swift in Sources */,
 				AE36B4B01F28324300B8835D /* PhotoCell.swift in Sources */,
 				AE36B4A81F282AAB00B8835D /* RxSwiftEventOperator.swift in Sources */,
+				AEBBD5151F3AE47B00CF1B54 /* DataPaymentSection.swift in Sources */,
 				AE36B4AE1F28324300B8835D /* PHPPhotoLibrary+Rx.swift in Sources */,
 				AE36B4B11F28324300B8835D /* PhotoCollectionViewController.swift in Sources */,
 				AE36B4AF1F28324300B8835D /* Flash.swift in Sources */,
 				AEEBCC0E1F39A23F00C1A9A7 /* ClosureShouldBeUsedViewController.swift in Sources */,
 				AEEBCC091F39881800C1A9A7 /* Edisode.swift in Sources */,
+				AEBBD5161F3AE47B00CF1B54 /* ModelPayment.swift in Sources */,
 				AEE9CF0E1F358F7D00EC3808 /* RxSwiftLoginController.swift in Sources */,
 				AE1200161F26E1530027FAE7 /* RxSwiftSubject.swift in Sources */,
+				AEBBD51A1F3AE54800CF1B54 /* Helper.swift in Sources */,
 				AE96E6891F36B9E00096B208 /* SimpleCollectionViewController.swift in Sources */,
 				AEEBCC0B1F39944A00C1A9A7 /* StructWithoutdelegate.swift in Sources */,
+				AEBBD5181F3AE47B00CF1B54 /* PaymentViewController.swift in Sources */,
 				AE9958F01F21DF3A0011A2A9 /* BindingExtensions.swift in Sources */,
 				AE36B4A61F28244600B8835D /* RxSwiftIgnoreOperators.swift in Sources */,
 				AEE9CF0B1F358C3000EC3808 /* RxTableViewController.swift in Sources */,
+				AEBBD5101F3AE00A00CF1B54 /* TableViewCell+Rx.swift in Sources */,
 				AEF1ADD21F345F7900CCFC99 /* RxSwiftQuestion.swift in Sources */,
+				AEBBD51D1F3AE7A100CF1B54 /* PaymentCell.swift in Sources */,
+				AEBBD50D1F3ADEB100CF1B54 /* ProductCell.swift in Sources */,
+				AE62C2AB1F3AA62100A81468 /* CartViewController.swift in Sources */,
 				AE96E68F1F36C2CB0096B208 /* SortViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,4 +24,5 @@ target 'RxSwift-Demo' do
   pod 'RxSwiftUtilities', '~> 1.0.1'
   pod 'RxDataSources'
   pod 'NSObject+Rx'
+  pod 'R.swift'
 end

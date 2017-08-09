@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         pushButton.rx.tap.subscribe { [weak self] (event : Event<()>) in
             
-           self?.navigationController?.pushViewController(SortViewController(), animated: true)
+           self?.navigationController?.pushViewController(PaymentViewController(), animated: true)
             
         }.addDisposableTo(bag)
         
@@ -62,9 +62,11 @@ class ViewController: UIViewController {
             
         }.addDisposableTo(bag)
         
+        subtractButton.rx.tap.subscribe { [weak self] (event : Event<()>) in
+            
+            self?.navigationController?.pushViewController(CartViewController(), animated: true)
         
-        
-        
+        }.addDisposableTo(bag)
         
         sendMethodS()
     

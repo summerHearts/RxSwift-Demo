@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCellIdentifier" rowHeight="100" id="2XI-oh-Xdv" customClass="ProductCell" customModule="RxSwift_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2XI-oh-Xdv" id="K2J-Yb-Gwa">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlf-tx-Ert" userLabel="countLabel">
+                        <rect key="frame" x="277.5" y="64" width="10.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eV-oc-edT" userLabel="minusButton">
+                        <rect key="frame" x="233.5" y="62.5" width="24" height="24"/>
+                        <state key="normal" image="btn_minus_normal"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCW-Dn-PZu" userLabel="plusButton">
+                        <rect key="frame" x="308" y="62.5" width="24" height="24"/>
+                        <state key="normal" image="btn_plus_normal"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_right" translatesAutoresizingMaskIntoConstraints="NO" id="wSz-cZ-N7v">
+                        <rect key="frame" x="347" y="41.5" width="13" height="17"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="akh-N6-DhS">
+                        <rect key="frame" x="30" y="28.5" width="69.5" height="42.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cz7-zz-5a8" userLabel="nameLabel">
+                                <rect key="frame" x="0.0" y="0.0" width="69.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0sz-i6-5NG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单价：0 元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hee-3a-aR7" userLabel="unitPriceLabel">
+                                <rect key="frame" x="0.0" y="26" width="65" height="16.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.46274510029999999" green="0.47450980539999998" blue="0.49411764740000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="mlf-tx-Ert" secondAttribute="bottom" constant="15" id="CB7-Me-yuS"/>
+                    <constraint firstItem="mlf-tx-Ert" firstAttribute="leading" secondItem="7eV-oc-edT" secondAttribute="trailing" constant="20" id="GrJ-GF-8DN"/>
+                    <constraint firstItem="wSz-cZ-N7v" firstAttribute="centerY" secondItem="K2J-Yb-Gwa" secondAttribute="centerY" id="IW8-xv-WxA"/>
+                    <constraint firstItem="mlf-tx-Ert" firstAttribute="centerY" secondItem="7eV-oc-edT" secondAttribute="centerY" id="QCB-fr-03E"/>
+                    <constraint firstItem="akh-N6-DhS" firstAttribute="centerY" secondItem="K2J-Yb-Gwa" secondAttribute="centerY" id="Yda-wk-ejD"/>
+                    <constraint firstItem="akh-N6-DhS" firstAttribute="leading" secondItem="K2J-Yb-Gwa" secondAttribute="leading" constant="30" id="YqQ-vf-aXp"/>
+                    <constraint firstItem="wSz-cZ-N7v" firstAttribute="leading" secondItem="pCW-Dn-PZu" secondAttribute="trailing" constant="15" id="cFS-S3-o1Y"/>
+                    <constraint firstAttribute="trailing" secondItem="wSz-cZ-N7v" secondAttribute="trailing" constant="15" id="g4b-8D-HHx"/>
+                    <constraint firstItem="pCW-Dn-PZu" firstAttribute="centerY" secondItem="7eV-oc-edT" secondAttribute="centerY" id="oxW-EJ-vPn"/>
+                    <constraint firstItem="pCW-Dn-PZu" firstAttribute="leading" secondItem="mlf-tx-Ert" secondAttribute="trailing" constant="20" id="wDh-9K-jc4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countLbl" destination="mlf-tx-Ert" id="CkD-eu-dZy"/>
+                <outlet property="minusBtn" destination="7eV-oc-edT" id="Pji-uM-kFq"/>
+                <outlet property="nameLbl" destination="Cz7-zz-5a8" id="DQm-j0-spf"/>
+                <outlet property="plusBtn" destination="pCW-Dn-PZu" id="nD2-db-3Uo"/>
+                <outlet property="priceLbl" destination="Hee-3a-aR7" id="MKx-EV-ulE"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn_minus_normal" width="24" height="24"/>
+        <image name="btn_plus_normal" width="24" height="24"/>
+        <image name="ic_right" width="13" height="17"/>
+    </resources>
+</document>

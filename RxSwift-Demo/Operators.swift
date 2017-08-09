@@ -1,10 +1,7 @@
 //
 //  Operators.swift
-//  RxSwiftTwoWayBinding
-//
-//  Created by monkey on 2017/3/30.
-//  Copyright © 2017年 Coder. All rights reserved.
-//
+//  Created by Kenvin on 2017/8/9.
+//  Copyright © 2017年 Kenvin. All rights reserved.
 
 import UIKit
 import RxSwift
