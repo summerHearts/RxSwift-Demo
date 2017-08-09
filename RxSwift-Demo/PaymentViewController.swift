@@ -17,7 +17,6 @@ class PaymentViewController: UIViewController {
         
         
         didSet{
-            mainTableView.register(UINib(nibName: "PaymentCell",bundle: nil), forCellReuseIdentifier: PaymentCellIdentifier)
 
             mainTableView
             .rx
@@ -64,6 +63,7 @@ class PaymentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mainTableView.register(UINib(nibName: "PaymentCell",bundle: nil), forCellReuseIdentifier: PaymentCellIdentifier)
 
         
         Observable.just([paymentSection])
